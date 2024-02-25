@@ -171,7 +171,6 @@
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
-    // height: 100%;
     overflow: hidden;
   }
 
@@ -182,7 +181,7 @@
   .e {
     position: relative;
     width: 100% !important;
-    height: 20vh !important;
+    height: 18vh !important;
     top: unset !important;
     left: unset !important;
   }

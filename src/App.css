@@ -11,10 +11,10 @@ a {
 
 @font-face {
   font-family: Anton;
-  src: url("fonts/Anton/Anton-Regular.ttf");
+  src: url("assets/fonts/Anton/Anton-Regular.ttf");
 }
 
 @font-face {
   font-family: "Dancing Script";
-  src: url("fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+  src: url("assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
 }

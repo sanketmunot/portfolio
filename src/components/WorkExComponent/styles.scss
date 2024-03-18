@@ -42,7 +42,7 @@
     line-height: 1.5rem;
     font-family: monospace;
     margin-bottom: 10px;
-    
+
     &::before {
       content: attr(data-emoji);
     }
@@ -51,13 +51,16 @@
 
 @media only screen and (max-width: 768px) {
   .work-card {
-    padding-left: .5rem;
+    padding-left: 0.5rem;
 
     li {
       text-align: left;
     }
   }
 
+  .work-end {
+    padding-inline: 4px;
+  }
   .card-content {
     padding-top: 50px;
   }

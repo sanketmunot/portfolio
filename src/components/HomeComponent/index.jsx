@@ -3,9 +3,6 @@ import "./styles.scss";
 import { SIZES, SECTIONS } from "./HomeConstants";
 import Contact from "../ContactComponent";
 import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
   Link,
 } from "react-router-dom";
 

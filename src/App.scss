@@ -1,0 +1,52 @@
+$text-color: #183a1d;
+$bg-color: #fefbe9;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $bg-color;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+@font-face {
+  font-family: Anton;
+  src: url("assets/fonts/Anton/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url("assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+
+.section-container {
+  height: 100vh;
+  color: $text-color;
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: auto;
+}
+
+h1,
+h2 {
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-container {
+    height: 100vh;
+    color: $text-color;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow: auto;
+  }  
+}

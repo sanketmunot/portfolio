@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.header {
+  font-size: 28px;
+  font-family: "Dancing Script";
+  font-weight: 300;
+  transform: scale(1.5, 1.2);
+}
+
+nav {
+  font-family: "Courier New", Courier, monospace;
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+
+    li {
+      list-style: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .active-link {
+      text-decoration: underline;
+    }
+  }
+}
